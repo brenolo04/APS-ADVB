@@ -1,4 +1,43 @@
+:root {
+  --bg-body: #E9EDE2;
+  --bg-footer: #28703C;
+  --cor-h2: #28703C;
+  --cor-hr: #468357;
+  --cor-p: #000000;
+  --cor-footer: #fff;
+
+  --font-size-base: 14px;
+  --font-family-base: "Noto Sans", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-base);
+  color: var(--cor-p);
+
+  background-color: var(--bg-body);
+}
+
+body h2 {
+  color: var(--cor-h2);
+}
+
+nav img{ /* Imgem não estoura o disposição */
+  width: 100%;
+}
+
+footer {
+  background-color: var(--bg-footer);
+
+  color: var(--cor-footer);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--cor-footer);
 }
