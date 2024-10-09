@@ -3,10 +3,6 @@
   padding: 20px 30px;
 }
 
-nav .hide { /* Imagem acessível apenas para leitores de tela*/
-  display: none;
-}
-
 nav .nav_elementos {
   display: flex;
   align-items: center;
