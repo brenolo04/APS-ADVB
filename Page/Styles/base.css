@@ -27,7 +27,7 @@ body h2 {
   color: var(--cor-h2);
 }
 
-nav img{ /* Imgem não estoura o disposição */
+img { /* Imagem não estoura o disposição */
   width: 100%;
 }
 
