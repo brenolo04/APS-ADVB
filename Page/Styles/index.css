@@ -1,0 +1,22 @@
+.principal_container nav {
+  background: url(../Assets/Images/nav_image.png) no-repeat 50% 50%;
+  padding: 20px 30px;
+}
+
+nav .hide { /* Imagem acessível apenas para leitores de tela*/
+  display: none;
+}
+
+nav .nav_elementos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .nav_elementos .nav_logo {
+  max-width: 50%;
+}
+
+nav .nav_elementos .redes_sociais {
+  max-width: 10%;
+}
