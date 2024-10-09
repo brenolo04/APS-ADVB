@@ -45,3 +45,49 @@ main section:last-child h2 {
   text-align: right;
 }
 
+footer {
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer .topo, .foo_redes_sociais, .icones, .base, address {
+  display: flex;
+  align-items: center;
+}
+
+footer .topo {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+footer .logo img {
+  max-width: 200px;
+}
+
+footer .foo_redes_sociais p{
+  margin-right: 10px;
+}
+
+footer .foo_redes_sociais .icones {
+  max-width: 50%; 
+}
+
+footer .foo_redes_sociais .icones img{
+  margin-left: 10px;
+  max-width: 40%;
+}
+
+footer .base {
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+footer .base {
+  justify-content: space-between;
+}
+
+footer .base .contatos p:first-child{
+  margin-right: 15px;
+}
