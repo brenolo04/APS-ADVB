@@ -20,3 +20,28 @@ nav .nav_elementos .nav_logo {
 nav .nav_elementos .redes_sociais {
   max-width: 10%;
 }
+
+main {
+  padding: 26px 18px;
+}
+
+main section {
+  border-top: 1px solid var(--cor-hr);
+}
+
+main .conteudo h2 {
+  font-size: 32px;
+}
+
+main .conteudo p {
+  margin-top: 15px;
+}
+
+main section:last-child {
+  margin-top: 26px;
+}
+
+main section:last-child h2 {
+  text-align: right;
+}
+
