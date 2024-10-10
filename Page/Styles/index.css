@@ -1,0 +1,89 @@
+.principal_container nav {
+  background: url(../Assets/Images/nav_image.png) no-repeat 50% 50%;
+  padding: 20px 30px;
+}
+
+nav .nav_elementos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .nav_elementos .nav_logo {
+  max-width: 50%;
+}
+
+nav .nav_elementos .redes_sociais {
+  max-width: 10%;
+}
+
+main {
+  padding: 26px 18px;
+}
+
+main section {
+  border-top: 1px solid var(--cor-hr);
+}
+
+main .conteudo h2 {
+  font-size: 32px;
+}
+
+main .conteudo p {
+  margin-top: 15px;
+}
+
+main section:last-child {
+  margin-top: 26px;
+}
+
+main section:last-child h2 {
+  text-align: right;
+}
+
+footer {
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer .topo, .foo_redes_sociais, .icones, .base, address {
+  display: flex;
+  align-items: center;
+}
+
+footer .topo {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+footer .logo img {
+  max-width: 200px;
+}
+
+footer .foo_redes_sociais p{
+  margin-right: 10px;
+}
+
+footer .foo_redes_sociais .icones {
+  max-width: 50%; 
+}
+
+footer .foo_redes_sociais .icones img{
+  margin-left: 10px;
+  max-width: 40%;
+}
+
+footer .base {
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+footer .base {
+  justify-content: space-between;
+}
+
+footer .base .contatos p:first-child{
+  margin-right: 15px;
+}
