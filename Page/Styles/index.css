@@ -1,4 +1,7 @@
 .principal_container nav {
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
   background: url(../Assets/Images/nav_image.png) no-repeat 50% 50%;
   padding: 20px 30px;
 }
@@ -86,4 +89,33 @@ footer .base {
 
 footer .base .contatos p:first-child{
   margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    height: 100vh;
+  }
+
+  .principal_container {
+    height: 100vh;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    height: 100%;
+  }
+
+  main section {
+    border-top: none;
+    padding: 20px;  
+  }
+  
+  main section:last-child {
+    border-left: 1px solid var(--cor-hr);
+    margin-top: 0;
+  }
 }
